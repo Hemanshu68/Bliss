@@ -1,0 +1,21 @@
+.job-cont {
+    width: 80%;
+    margin: 10px auto;
+    display: grid;
+    grid-template-areas: "filter jobs";
+    grid-template-columns: 300px 1fr;
+    grid-gap: 80px;
+    padding: 10px;
+    height: 700px;
+}
+.filter-div {
+    grid-area: "filter";
+    width: 200px;
+}
+.jobs-div {
+    grid-area: "jobs";
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+    overflow-y: auto;
+}

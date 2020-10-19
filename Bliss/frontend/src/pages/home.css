@@ -1,0 +1,15 @@
+.homekacard {
+    padding: 300px;
+    display: grid 1fx;
+}
+
+.cardings {
+    margin-left: 30px;
+}
+
+@media screen and (max-width: 500px) {
+    .homekacard {
+        display: grid 1fx;
+        padding: 0px;
+    }
+}

@@ -1,0 +1,12 @@
+.pro-sidebar {
+    background-color: white;
+    padding: 0 10px;
+    max-height: 500px;
+}
+.pro-sidebar-layout {
+    background-color: white;
+}
+
+.pro-sidebar-content {
+    padding: 10px;
+}

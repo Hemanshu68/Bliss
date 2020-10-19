@@ -1,0 +1,54 @@
+.outer-divv {
+    position: relative;
+    min-width: 600px;
+    min-height: 300px;
+    padding: 4px;
+    background-color: white;
+}
+
+.job-img {
+    width: 70px;
+    border: black 1px solid;
+}
+.imgg-div {
+    display: flex;
+    margin: 10px 5px;
+}
+.imgg-txt {
+    margin-left: 15px;
+}
+
+.imgg-txt h3 {
+    margin: 3px;
+}
+.content-div {
+    margin: 10px 5px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    position: relative;
+    grid-row-gap: 20px;
+}
+
+.span-block {
+    background-color: #f8f8f8;
+    font-size: 1.2rem;
+}
+.view-btn {
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+    border: 1px solid black;
+    font-size: large;
+    color: black;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 5px;
+    background: #8ab9f7;
+    -webkit-transition: background 1s; /* For Safari 3.0 to 6.0 */
+    transition: background 1s;
+}
+.view-btn:hover {
+    background: #19cbf8;
+}
